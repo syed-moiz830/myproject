@@ -2,148 +2,246 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
-    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./index.css">
-    <script src="./bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
-    <script src="./jquery-3.7.1.js"></script>
-    <!-- <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home</title>
+  <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./index.css">
+  <script src="./bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+  <script src="./jquery-3.7.1.js"></script>
+  <link rel="stylesheet" href="./bootstrap-icons-1.13.1/bootstrap-icons.min.css">
+  <!-- <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> -->
 </head>
 
 <body>
-<div class="container-fluid">
-  <div class="row">
-<div class="col1">
-    <nav class="navbar navbar-expand   " id="nav">
-        <div class="container-fluid " id="container">
+  <div class="container-fluid m-0 p-0">
+    <div class="row">
+      <div class="col1">
+        <nav class="navbar navbar-expand navbar-light" id="nav">
+          <div class="container-fluid " id="container">
             <div class="col-9 "><img src="./sofa.png" alt="" class="logo"></div>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse col-3" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active text-light" id="home" aria-current="page" href="#" id="home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-light" id="contact" aria-current="page" href="#" id="contact"> Contact </a>
-                    </li>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" id="home" aria-current="page" href="#" id="home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" id="contact" aria-current="page" href="#" id="contact"> Contact </a>
+                </li>
 
 
-                   <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light
-                        " href="#" id="navbarDropdown" role="button" id="category"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Categories
-                        </a>
-                        <ul class="dropdown-menu" aria.conta-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="./download.jpg">Sofas & Sectionals</a></li>
-                            <li><a class="dropdown-item" href="#">Coffee Tables</a></li>
-                           <li><a class="dropdown-item" href="#">Side Tables</a></li>
-                            <li><a class="dropdown-item" href="#">Accent Chairs</a></li>
-                            <li><a class="dropdown-item" href="#">Bookshelves</a></li>
-                            <li><a class="dropdown-item" href="#">Beds (King / Queen / Single)</a></li>
-                        </ul>
-                    </li>
-                </ul>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle
+                        " href="#" id="navbarDropdown" role="button" id="category" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Categories
+                  </a>
+                  <ul class="dropdown-menu" aria.conta-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="./download.jpg">Sofas & Sectionals</a></li>
+                    <li><a class="dropdown-item" href="#">Coffee Tables</a></li>
+                    <li><a class="dropdown-item" href="#">Side Tables</a></li>
+                    <li><a class="dropdown-item" href="#">Accent Chairs</a></li>
+                    <li><a class="dropdown-item" href="#">Bookshelves</a></li>
+                    <li><a class="dropdown-item" href="#">Beds (King / Queen / Single)</a></li>
+                  </ul>
+                </li>
+              </ul>
             </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+
+    <div class="row2">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="./slide1.webp" class="d-block w-100" alt="..." style="height:  550px;">
+          </div>
+          <div class="carousel-item " data-bs-interval="2000">
+            <img src="./slide2.jpg" class="d-block w-100" alt="..." style="height:  550px;">
+          </div>
+          <div class="carousel-item " data-bs-interval="2000">
+            <img src="./slide3.jpg" class="d-block w-100" alt="..." style="height:  550px;">
+          </div>
         </div>
-    </nav>
-</div>
-  </div>
-
-
-<div class="row2">
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="2000">
-      <img src="./slide1.webp" class="d-block w-100" alt="..." style="height:  550px;">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
-    <div class="carousel-item "  data-bs-interval="2000">
-      <img src="./slide2.jpg" class="d-block w-100" alt="..." style="height:  550px;">
+    <div class="justify-content-center text-center">
+      <h1 class="d-inline-block mx-auto text-decoration-underline">Top Rated Products</h1>
     </div>
-    <div class="carousel-item "  data-bs-interval="2000">
-      <img src="./slide3.jpg" class="d-block w-100" alt="..." style="height:  550px;">
+
+
+
+
+    <div class="row4 d-flex m-4">
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <img src="./c11.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Dining Table</h5>
+
+            <p class="card-text">Lorem ipsum dolor sit. </p>
+            <div id="more">
+              <p> price:4500$</p>
+              <p>
+                Color:White
+              </p>
+
+            </div>
+
+
+            <a href="#" class="btn btn-primary" id="Read">Read</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <img src="./12.jpg" class="card-img-top " alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Sofa</h5>
+
+            <p class="card-text">Lorem ipsum dolor sit. </p>
+            <div id="more1">
+              <p> price:4500$</p>
+              <p>
+                Color:White
+              </p>
+
+            </div>
+            <a href="#" class="btn btn-primary" id="Read1">Read</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <img src="./c33.jpeg" class="card-img-top h-25" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Beds</h5>
+            <p class="card-text">Lorem ipsum dolor sit. </p>
+            <div id="more2">
+              <p> price:4500$</p>
+              <p>
+                Color:White
+              </p>
+
+            </div>
+            <a href="#" class="btn btn-primary" id="Read2">Read</a>
+          </div>
+        </div>
+      </div>
+
     </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-</div>
-<div class="row3">
-<div class="h2">
-  <h1>Top Rated Products</h1>
-</div>
-</div>
 
 
+    <div class="row4 d-flex m-4">
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <img src="./c11.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Dining Table</h5>
+
+            <p class="card-text">Lorem ipsum dolor sit. </p>
+            <div id="more">
+              <p> price:4500$</p>
+              <p>
+                Color:White
+              </p>
+
+            </div>
 
 
-<div class="row4 d-flex m-4">
-  <div class="col-4">
-    <div class="card" style="width: 18rem;">
-  <img src="./c11.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Dining Table</h5>
+            <a href="#" class="btn btn-primary" id="Read">Read</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <img src="./12.jpg" class="card-img-top " alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Sofa</h5>
+
+            <p class="card-text">Lorem ipsum dolor sit. </p>
+            <div id="more1">
+              <p> price:4500$</p>
+              <p>
+                Color:White
+              </p>
+
+            </div>
+            <a href="#" class="btn btn-primary" id="Read1">Read</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <img src="./c33.jpeg" class="card-img-top h-25" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Beds</h5>
+            <p class="card-text">Lorem ipsum dolor sit. </p>
+            <div id="more2">
+              <p> price:4500$</p>
+              <p>
+                Color:White
+              </p>
+
+            </div>
+            <a href="#" class="btn btn-primary" id="Read2">Read</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
     
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <p id="more">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque impedit dicta eos magni excepturi minus architecto labore autem veniam. Dolorum obcaecati repellendus est maxime! Error?</p>
-    <a href="#" class="btn btn-primary" id="Read">Read</a>
-  </div>
-</div>
-  </div>
-
-<div class="col-4">
-    <div class="card" style="width: 18rem;">
-  <img src="./12.jpg" class="card-img-top " alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Sofa</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <p id="more">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste placeat in itaque totam corrupti quo sed veniam est eaque maxime. Fuga quo corporis nisi minus?</p>
-    <a href="#" class="btn btn-primary" id="Read">Read</a>
-  </div>
-</div>
-  </div>
-
-<div class="col-4">
-    <div class="card" style="width: 18rem;">
-  <img src="./c33.jpeg" class="card-img-top h-25" alt="..." >
-  <div class="card-body">
-    <h5 class="card-title">Beds</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <p id="more">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero culpa officiis, cupiditate aperiam obcaecati assumenda fugit. Reprehenderit totam repellendus minima a, amet obcaecati? Nostrum, iure.</p>
-
-    <a href="#" class="btn btn-primary" id="Read">Read</a>
-  </div>
-</div>
-  </div>
-  
-</div>
-
-</div>
 
 
-<script>
-  
-  
-  
-  $(document).ready(function(){
-    $("#Read").click(function(){
-      $("#more").toggle();
+  </div>
+
+  <script>
+
+
+
+    $(document).ready(function () {
+      $("#Read").click(function () {
+        $("#more").toggle();
+      })
     })
-  })
-</script>
+
+    $(document).ready(function () {
+      $("#Read1").click(function () {
+        $("#more1").toggle();
+      })
+    })
+
+    $(document).ready(function () {
+      $("#Read2").click(function () {
+        $("#more2").toggle();
+      })
+    })
+  </script>
 </body>
 
 </html>
