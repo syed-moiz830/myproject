@@ -108,7 +108,8 @@
             </div>
 
 
-            <a href="#" class="btn btn-primary" id="Read">Read</a>
+            <a  class="btn btn-primary" id="Read">Read</a>
+            
           </div>
         </div>
       </div>
@@ -127,7 +128,7 @@
               </p>
 
             </div>
-            <a href="#" class="btn btn-primary" id="Read1">Read</a>
+            <a  class="btn btn-primary" id="Read1">Read</a>
           </div>
         </div>
       </div>
@@ -145,7 +146,7 @@
               </p>
 
             </div>
-            <a href="#" class="btn btn-primary" id="Read2">Read</a>
+            <a  class="btn btn-primary" id="Read2">Read</a>
           </div>
         </div>
       </div>
@@ -156,64 +157,107 @@
     <div class="row4 d-flex m-4">
       <div class="col-4">
         <div class="card" style="width: 18rem;">
-          <img src="./c11.jpg" class="card-img-top" alt="...">
+          <img src="./coffee.webp" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Dining Table</h5>
+            <h5 class="card-title">Coffee Table</h5>
 
             <p class="card-text">Lorem ipsum dolor sit. </p>
-            <div id="more">
+            <div id="more3">
               <p> price:4500$</p>
               <p>
-                Color:White
+                Color:Brown
               </p>
 
             </div>
 
 
-            <a href="#" class="btn btn-primary" id="Read">Read</a>
+            <a  class="btn btn-primary" id="Read3">Read</a>
           </div>
         </div>
       </div>
 
       <div class="col-4">
         <div class="card" style="width: 18rem;">
-          <img src="./12.jpg" class="card-img-top " alt="...">
+          <img src="./chair3.jpg" class="card-img-top " alt="...">
           <div class="card-body">
-            <h5 class="card-title">Sofa</h5>
+            <h5 class="card-title">Accent Chairs</h5>
 
             <p class="card-text">Lorem ipsum dolor sit. </p>
-            <div id="more1">
+            <div id="more4">
               <p> price:4500$</p>
               <p>
-                Color:White
+                Color:Blue
               </p>
 
             </div>
-            <a href="#" class="btn btn-primary" id="Read1">Read</a>
+            <a  class="btn btn-primary" id="Read4">Read</a>
           </div>
         </div>
       </div>
 
-      <div class="col-4">
+      <div class="col-3">
         <div class="card" style="width: 18rem;">
-          <img src="./c33.jpeg" class="card-img-top h-25" alt="...">
+          <img src="./book1.jpg" class="card-img-top h-25" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Beds</h5>
+            <h5 class="card-title">Bookshelves</h5>
             <p class="card-text">Lorem ipsum dolor sit. </p>
-            <div id="more2">
+            <div id="more5">
               <p> price:4500$</p>
               <p>
-                Color:White
+                Color:Grey
               </p>
 
             </div>
-            <a href="#" class="btn btn-primary" id="Read2">Read</a>
+            <a  class="btn btn-primary" id="Read5">Read</a>
           </div>
         </div>
       </div>
 
     </div>
 
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-box">
+      <h2>OxfordSofa</h2>
+      <p>Premium quality sofas designed for comfort and style.</p>
+    </div>
+
+    <div class="footer-box">
+      <h3>Sofas</h3>
+      <ul>
+        <li><a href="">Fabric Sofas</a></li>
+        <li><a href="">Leather Sofas</a></li>
+        <li><a href="">Sectional Sofas</a></li>
+        <li><a href="">Sofa Beds</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-box">
+      <h3>Customer Care</h3>
+      <ul>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Delivery Info</a></li>
+        <li><a href="">Return Policy</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-box">
+      <h3>Follow Us</h3>
+      <div class="social-links">
+        <a href="">Facebook</a>
+        <a href="">Instagram</a>
+        <a href="">Twitter</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© Oxford sofa. All Rights Reserved.</p>
+  </div>
+</footer>
 
     
 
@@ -226,21 +270,41 @@
 
     $(document).ready(function () {
       $("#Read").click(function () {
-        $("#more").toggle();
+        $("#more").slideToggle();
       })
     })
 
     $(document).ready(function () {
       $("#Read1").click(function () {
-        $("#more1").toggle();
+        $("#more1").slideToggle();
       })
     })
 
     $(document).ready(function () {
       $("#Read2").click(function () {
-        $("#more2").toggle();
+        $("#more2").slideToggle();
       })
     })
+
+
+     $(document).ready(function () {
+      $("#Read3").click(function () {
+        $("#more3").slideToggle();
+      })
+    })
+
+     $(document).ready(function () {
+      $("#Read4").click(function () {
+        $("#more4").slideToggle();
+      })
+    })
+
+     $(document).ready(function () {
+      $("#Read5").click(function () {
+        $("#more5").slideToggle();
+      })
+    })
+
   </script>
 </body>
 
